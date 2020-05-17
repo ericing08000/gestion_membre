@@ -1,0 +1,82 @@
+/* S'inscrire' */
+
+#signin{
+    /* background: salmon; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+    height: 380px;
+    position: absolute;
+    top: 150px;
+    left: 45%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: black 2px 2px 10px;
+}
+
+#signin p{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: lucida;
+    color: rgb(85, 85, 85);
+}
+
+#signin hr{
+    width: 80%;
+    color: rgba(128, 128, 128, 0.2);
+}
+
+.form_signin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form_signin input{
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 200px;
+    height: 25px;
+    border-color:rgba(189, 189, 189, 0.5);
+    border-width: 0.5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.submit_signin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form_signin button{
+    background: #6eef26;
+    margin-top: 20px;
+    height: 30px;
+    border-color:rgba(189, 189, 189, 0.5);
+    border-width: 0.5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    color: rgb(100, 100, 100);
+}
+
+.form_signin button:hover{
+    color: rgb(51, 51, 51);
+}
+
+@media all and (max-width:1200px){
+    #signin{
+        left: 17%;
+    }
+}

@@ -1,0 +1,13 @@
+.footer{
+    background: linear-gradient(90deg , rgba(0, 0, 0, 0.856), rgba(139, 139, 139, 0.808));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 4vh;
+}
+
+.footer p{
+    font-size: 12px;
+    color: white;
+}

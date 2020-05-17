@@ -1,0 +1,40 @@
+/* header */
+.header{
+    background: white;
+    /* display */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* taille */
+    width: 100vw;
+    height: 8vh;
+    border-bottom: 1px grey solid;
+    
+}
+img{
+    margin-left: 20px;
+    width: 30px;
+    height: 25px;
+}
+
+.header #buttons{
+    display: flex;
+    margin: 10px 20px 10px 0;
+    padding: 10px;
+}
+
+.header #buttons a{
+    text-decoration: none;
+    margin: 10px;
+    color:black;
+}
+
+#buttons a:hover{
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media all and (min-width:454px){
+    
+}
+
+
