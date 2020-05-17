@@ -1,15 +1,25 @@
-/* S'inscrire' */
+/* Se connecter' */
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+}
 
-#signup{
+#seconnecter{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 87.85vh;
+    
+}
+#signin{
     /* background: salmon; */
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 280px;
-    height: 380px;
-    position: absolute;
-    top: 150px;
-    left: 45%;
+    height: 300px;
+    margin: 50px auto;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -18,26 +28,26 @@
     box-shadow: black 2px 2px 10px;
 }
 
-#signup p{
+#signin p{
     font-size: 30px;
     margin-bottom: 10px;
     font-family: lucida;
     color: rgb(85, 85, 85);
 }
 
-#signup hr{
+#signin hr{
     width: 80%;
     color: rgba(128, 128, 128, 0.2);
 }
 
-.form_signup{
+.form_signin{
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 10px;
 }
 
-.form_signup input{
+.form_signin input{
     margin-top: 20px;
     padding-left: 10px;
     width: 200px;
@@ -51,13 +61,13 @@
     -o-border-radius: 2px;
 }
 
-.submit_signup{
+.submit_signin{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.form_signup button{
+.form_signin button{
     background: #6eef26;
     margin-top: 20px;
     height: 30px;
@@ -71,12 +81,12 @@
     color: rgb(100, 100, 100);
 }
 
-.form_signup button:hover{
+.form_signin button:hover{
     color: rgb(51, 51, 51);
 }
 
 @media all and (max-width:1200px){
-    #signup{
+    #signin{
         left: 17%;
     }
 }

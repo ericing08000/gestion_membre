@@ -20,21 +20,17 @@
     </head>
 
 <body id="body" class="accueil">
+    
     <!------------------------------------->
     <!-- header -->
     <!------------------------------------->
     <?php include('include/header.php');?>
 
-<div id="connexion">    
-    <!------------------------------------->
-    <!-- S'inscrire -->
-    <!------------------------------------->
-    <?php include('include/signup.php');?>
-
-    <!------------------------------------->
-    <!-- Se connecter -->
-    <!------------------------------------->
-    <?php include('include/signin.php');?>
+<div id="accueil">
+    <section class="accueil">
+    <h1>Gestion d'un espace membre</h1>
+    <p>Simplon le 17/05/2020</p>
+    </section>
 </div>
 
     <!------------------------------------->

@@ -4,13 +4,16 @@ body{
     padding: 0;
 }
 
-#connexion{
+#accueil{
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 87vh;
+    height: 87.85vh;
     
 }
 
-
+.accueil{
+    text-align: center;
+    
+}
 
