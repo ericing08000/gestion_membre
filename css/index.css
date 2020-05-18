@@ -6,14 +6,13 @@ body{
 
 #accueil{
     display: flex;
-    justify-content: center;
+    justify-content: center;   
     width: 100vw;
     height: 87.85vh;
-    
 }
 
-.accueil{
+section.accueil{
     text-align: center;
-    
+    width: 250px;
+    height: 100%;
 }
-

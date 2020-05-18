@@ -41,9 +41,9 @@
             <p>S'inscrire</p>
         <hr>
             <form class="form_signup" action="#" method="post">
-                <input placeholder="Pseudo" type="text" name="pseudo" id="pseudo">
+                <input placeholder="Nom" type="text" name="username" id="username">
                 <input placeholder="Email" type="text" name="email" id="email">
-                <input placeholder="Mot de passe"type="text" name="mdp" id="mdp">
+                <input placeholder="Mot de passe" type="password" name="mdp" id="mdp">
                     
                 <button type="submit">Créer un compte</button>
                 <br>
@@ -53,10 +53,14 @@
     </div>
 </div>    
 
-<!------------------------------------->
-<!-- footer -->
-<!------------------------------------->
-<?php include('include/footer.php');?> 
+<!------------------------>
+<!--footer--->
+<!------------------------>
+<link rel="stylesheet" href="../css/footer.css">
+
+<div class="footer">
+<p>© Copyright Ericing 2020</p>
+</div>
 
 
 </body>

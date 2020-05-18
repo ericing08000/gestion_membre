@@ -60,6 +60,10 @@ body{
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
+.form_signin input:hover{
+    border-color: blue;
+    cursor: pointer;
+}
 
 .submit_signin{
     display: flex;
@@ -85,8 +89,3 @@ body{
     color: rgb(51, 51, 51);
 }
 
-@media all and (max-width:1200px){
-    #signin{
-        left: 17%;
-    }
-}

@@ -21,29 +21,32 @@
 
 <body id="body" class="accueil">
     
-    <!------------------------------------->
-    <!-- header -->
-    <!------------------------------------->
-    <?php include('include/header.php');?>
+<!------------------------------------->
+<!-- header -->
+<!------------------------------------->
+<?php include('include/header.php');?>
 
+<!------------------------------------->
+<!-- Conteneur -->
+<!------------------------------------->
 <div id="accueil">
-    <section class="accueil">
-    <h1>Gestion d'un espace membre</h1>
-    <p>Simplon le 17/05/2020</p>
+    <section class="accueil" style="text-align:center; height:84.85vh">
+        <h3>Gestion d'un espace membre</h3>
+        <p>Simplon le 17/05/2020</p>
     </section>
 </div>
 
-    <!------------------------------------->
-    <!-- footer -->
-    <!------------------------------------->
-    <?php include('include/footer.php');?>
+<!------------------------------------->
+<!--footer--->
+<!------------------------------------->
+<?php include('include/footer.php');?>
 
-    <!------------------------------------->
-    <!-- scripts JQuery-->
-    <!------------------------------------->
-    <script src="js/jquery.js"></script>
-    <script src="js/signup.js"></script>
-    <script src="js/signin.js"></script>
+<!------------------------------------->
+<!-- scripts JQuery-->
+<!------------------------------------->
+<script src="js/jquery.js"></script>
+<script src="js/signup.js"></script>
+<script src="js/signin.js"></script>
 
 
 </body>
