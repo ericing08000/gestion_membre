@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="../css/seconnecter.css">
         
 
-        <title>Se connecter</title>
+        <title>Gestion membre - Se connecter</title>
     </head>
 
 <body id="body" class="accueil">
@@ -41,9 +41,9 @@
             <div id="signin">
                 <p>Se connecter</p>
             <hr>
-                <form class="form_signin" action="#" method="post">
-                    <input placeholder="Nom" type="text" name="username" id="username">
-                    <input placeholder="Mot de passe"type="password" name="mdp" id="mdp">
+                <form class="form_signin" action="../traitement/seconnecter.php" method="post">
+                    <input placeholder="Pseudo" type="text" name="pseudoUser" id="pseudoUser">
+                    <input placeholder="Mot de passe"type="password" name="mdpUser" id="mdpUser">
                         
                     <button type="submit">Se connecter</button>       
                         

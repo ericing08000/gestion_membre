@@ -13,8 +13,8 @@
 }
 img{
     margin-left: 20px;
-    width: 40px;
-    height: 25px;
+    width: 60px;
+    height: 40px;
 }
 
 .header #buttons{
@@ -27,7 +27,7 @@ img{
     text-decoration: none;
     margin: 10px;
     color:black;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 #buttons a:hover{
@@ -35,5 +35,19 @@ img{
 }
 
 
-
+@media all and (max-width:480px){
+    img{
+        margin-left: 20px;
+        width: 40px;
+        height: 25px;
+    }
+    .header #buttons{
+        display: flex;
+        margin: 10px 10px 10px 0;
+        padding: 5px;
+    }
+    .header #buttons a{
+        font-size: 13px;
+    }
+}
 

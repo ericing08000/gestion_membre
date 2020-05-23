@@ -19,7 +19,8 @@ body{
     align-items: center;
     flex-direction: column;
     width: 280px;
-    height: 380px;
+    min-height: 380px;
+    padding-bottom: 20px;
     margin: 50px auto;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -88,5 +89,12 @@ body{
 
 .form_signup button:hover{
     color: rgb(51, 51, 51);
+}
+
+.error h4{
+    margin: 0;
+}
+.error{
+    margin-top: 10px;
 }
 

@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/sinscrire.css">
 
-        <title>S'inscrire</title>
+        <title>Gestion membre - S'inscrire</title>
     </head>
 
 <body id="body" class="accueil">
@@ -21,6 +21,7 @@
     <a href="../index.php"><img src="../image/simplon.png" alt="logo simplon"></a>
 
 <div id="buttons">
+
 <a class="btn_signup" href="../index.php"><div></div>Accueil</a>
 <a class="btn_signup" href="sinscrire.php"><div></div>S'inscrire</a>
 <a class="btn_signin" href="seconnecter.php"><div></div>Se connecter</a>
@@ -40,14 +41,29 @@
         <div id="signup">
             <p>S'inscrire</p>
         <hr>
-            <form class="form_signup" action="#" method="post">
-                <input placeholder="Nom" type="text" name="username" id="username">
-                <input placeholder="Email" type="text" name="email" id="email">
-                <input placeholder="Mot de passe" type="password" name="mdp" id="mdp">
+        <!-- Gestion des erreurs -->
+        <?php if(isset($_GET['error'])) {
+                if($_GET['error'] ==1) {?>
+
+                    <div class="error">
+                        <h4>le pseudo existe déjà.</h4>
+                    </div>
+                <?php }
+                
+                if($_GET['error'] ==2) {?>
+                <div class="error">
+                    <h4>L'email existe déjà.</h4>
+                </div>        
+        <?php }} ?>
+
+            <form class="form_signup" action="../traitement/inscription.php" method="post">
+                <input placeholder="Pseudo" type="text" name="pseudoUser" id="pseudoUser" required>
+                <input placeholder="Email" type="email" name="emailUser" id="emailUser" required>
+                <input placeholder="Mot de passe" type="password" name="mdpUser" id="mdpUser" required>
                     
-                <button type="submit">Créer un compte</button>
+                <button type="submit">S'inscrire</button>
                 <br>
-                <a href="../index.php" style="margin-top:20px">Annulé</a>
+                <a href="sinscrire.php" style="margin-top:20px">Annuler</a>
             </form>    
         </div>   
     </div>
